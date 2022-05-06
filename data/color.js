@@ -20,7 +20,7 @@ const colorSlice = createSlice({
     addColor(state = initialState, { payload: { hex, name } }) {
       state.push({
         id: nanoid(4),
-        color,
+        hex,
         name,
       });
     },
