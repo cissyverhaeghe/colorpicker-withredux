@@ -6,3 +6,15 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.colorblock {
+  height: 40px;
+  width: 40px;
+}

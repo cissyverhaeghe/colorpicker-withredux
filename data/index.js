@@ -1,5 +1,8 @@
-const { configureStore } = require("@reduxjs/toolkit");
+import { configureStore } from "@reduxjs/toolkit";
+import colorReducer from "./color";
 
-const store = configureStore(colorReducer);
+const store = configureStore({
+  reducer: colorReducer,
+});
 
 export default store;
